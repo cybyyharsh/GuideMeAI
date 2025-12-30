@@ -1,0 +1,316 @@
+{
+  "states": {
+    "Andhra Pradesh": {
+      "capital": "Amaravati",
+      "cities": ["Visakhapatnam", "Vijayawada", "Guntur", "Nellore", "Kurnool", "Tirupati"],
+      "monuments": ["Tirumala Venkateswara Temple", "Undavalli Caves", "Leepakshi Temple"],
+      "food": ["Pulihora", "Poppadams", "Gongura Pickle", "Andhra Biryani"],
+      "festivals": ["Ugadi", "Sankranti", "Visakha Utsav"],
+      "identity": "Land of the Telugu people, known for its spicy cuisine and rich cultural heritage.",
+      "geography": "Coastal & Plains"
+    },
+    "Arunachal Pradesh": {
+      "capital": "Itanagar",
+      "cities": ["Itanagar", "Tawang", "Ziro", "Pasighat", "Bomdila"],
+      "monuments": ["Tawang Monastery", "Itafort", "Golden Pagoda"],
+      "food": ["Thukpa", "Momos", "Apong (Rice Beer)", "Bamboo Shoot"],
+      "festivals": ["Losar", "Solung", "Mopin"],
+      "identity": "The Land of the Rising Sun, known for its pristine beauty and tribal diversity.",
+      "geography": "Hilly"
+    },
+    "Assam": {
+      "capital": "Dispur",
+      "cities": ["Guwahati", "Dibrugarh", "Silchar", "Jorhat", "Tezpur"],
+      "monuments": ["Kamakhya Temple", "Rang Ghar", "Ahom Palaces"],
+      "food": ["Masor Tenga", "Khar", "Pithas", "Assam Tea"],
+      "festivals": ["Bihu", "Ambubachi Mela", "Majuli Festival"],
+      "identity": "Gateway to the North East, famous for its tea gardens and silk.",
+      "geography": "Plains & Hilly"
+    },
+    "Bihar": {
+      "capital": "Patna",
+      "cities": ["Patna", "Gaya", "Bhagalpur", "Muzaffarpur", "Nalanda"],
+      "monuments": ["Mahabodhi Temple", "Nalanda University Ruins", "Sher Shah Suri Tomb"],
+      "food": ["Litti Chokha", "Sattu Paratha", "Thekua", "Khaja"],
+      "festivals": ["Chhath Puja", "Sama Chakeva", "Shravani Mela"],
+      "identity": "The land of Buddha and Mahavira, rich in ancient history and learning.",
+      "geography": "Plains"
+    },
+    "Chhattisgarh": {
+      "capital": "Raipur",
+      "cities": ["Raipur", "Bhilai", "Bilaspur", "Korba", "Jagdalpur"],
+      "monuments": ["Sirpur Monuments", "Bhoramdeo Temple", "Bastat Fort"],
+      "food": ["Chila", "Muthiya", "Bore Basi", "Fara"],
+      "festivals": ["Bastar Dussehra", "Pandwani", "Madai Festival"],
+      "identity": "The Rice Bowl of Central India, known for its tribal culture and waterfalls.",
+      "geography": "Plains & Hilly"
+    },
+    "Goa": {
+      "capital": "Panaji",
+      "cities": ["Panaji", "Margao", "Vasco da Gama", "Mapusa", "Ponda"],
+      "monuments": ["Basilica of Bom Jesus", "Aguada Fort", "Shanta Durga Temple"],
+      "food": ["Fish Recheado", "Bebinca", "Pork Vindaloo", "Feni"],
+      "festivals": ["Goa Carnival", "Shigmo", "Feast of St. Francis Xavier"],
+      "identity": "India's beach paradise, famous for its Indo-Portuguese culture and sunsets.",
+      "geography": "Coastal"
+    },
+    "Gujarat": {
+      "capital": "Gandhinagar",
+      "cities": ["Ahmedabad", "Surat", "Vadodara", "Rajkot", "Bhavnagar"],
+      "monuments": ["Somnath Temple", "Rani ki Vav", "Statue of Unity", "Sun Temple Modhera"],
+      "food": ["Dhokla", "Khandvi", "Thepla", "Gujarati Thali"],
+      "festivals": ["Navratri", "Uttarayan (Kite Festival)", "Rann Utsav"],
+      "identity": "Land of legends and entrepreneurs, famous for its colorful culture and deserts.",
+      "geography": "Coastal & Desert & Plains"
+    },
+    "Haryana": {
+      "capital": "Chandigarh",
+      "cities": ["Gurugram", "Faridabad", "Panipat", "Ambala", "Hisar"],
+      "monuments": ["Kurukshetra", "Surajkund", "Farrukhnagar Fort"],
+      "food": ["Singri ki Sabzi", "Bajra Khichdi", "Kadai Hara Dhania Choliya"],
+      "festivals": ["Baisakhi", "Surajkund Mela", "Teej"],
+      "identity": "The Abode of God, known for its sports culture and agricultural strength.",
+      "geography": "Plains"
+    },
+    "Himachal Pradesh": {
+      "capital": "Shimla",
+      "cities": ["Shimla", "Manali", "Dharamshala", "Solan", "Mandi"],
+      "monuments": ["Key Monastery", "Hadimba Devi Temple", "Viceregal Lodge"],
+      "food": ["Dham", "Siddu", "Madra", "Tudkiya Bhath"],
+      "festivals": ["Kullu Dussehra", "Losar", "Halda"],
+      "identity": "The Land of Gods, famous for its snow-capped mountains and apple orchards.",
+      "geography": "Hilly"
+    },
+    "Jharkhand": {
+      "capital": "Ranchi",
+      "cities": ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro", "Deoghar"],
+      "monuments": ["Baidyanath Temple", "Jagannath Temple Ranchi", "Maluti Temples"],
+      "food": ["Dhuska", "Rugra", "Pitha", "Litti Chokha"],
+      "festivals": ["Sarhul", "Karam Puja", "Sohrai"],
+      "identity": "The Land of Forests, rich in mineral resources and tribal heritage.",
+      "geography": "Hilly & Plains"
+    },
+    "Karnataka": {
+      "capital": "Bengaluru",
+      "cities": ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru", "Belagavi", "Hampi"],
+      "monuments": ["Hampi Ruins", "Mysore Palace", "Gol Gumbaz", "Belur/Halebidu"],
+      "food": ["Bisi Bele Bath", "Mysore Pak", "Neer Dosa", "Ragi Mudde"],
+      "festivals": ["Mysuru Dasara", "Ugadi", "Kambala"],
+      "identity": "The Land of Sandalwood, famous for its tech hubs and ancient architecture.",
+      "geography": "Plains & Coastal & Hilly"
+    },
+    "Kerala": {
+      "capital": "Thiruvananthapuram",
+      "cities": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Thrissur", "Kollam"],
+      "monuments": ["Padmanabhaswamy Temple", "Bekal Fort", "Jewish Synagogue Kochi"],
+      "food": ["Kerala Sadya", "Appam with Stew", "Puttu and Kadala", "Karimeen Pollichathu"],
+      "festivals": ["Onam", "Vishu", "Thrissur Pooram"],
+      "identity": "God's Own Country, known for its backwaters, Ayurveda, and spices.",
+      "geography": "Coastal & Hilly"
+    },
+    "Madhya Pradesh": {
+      "capital": "Bhopal",
+      "cities": ["Indore", "Bhopal", "Jabalpur", "Gwalior", "Ujjain"],
+      "monuments": ["Khajuraho Temples", "Sanchi Stupa", "Gwalior Fort", "Mahakaleshwar Temple"],
+      "food": ["Poha Jalebi", "Bhutte Ka Kees", "Dal Bafla", "Mawa Bati"],
+      "festivals": ["Khajuraho Dance Festival", "Tansen Music Festival", "Bhagoria Haat"],
+      "identity": "The Heart of Incredible India, known for its wildlife and temple carvings.",
+      "geography": "Plains & Hilly"
+    },
+    "Maharashtra": {
+      "capital": "Mumbai",
+      "cities": ["Mumbai", "Pune", "Nagpur", "Thane", "Nashik", "Aurangabad"],
+      "monuments": ["Ajanta & Ellora Caves", "Gateway of India", "Shaniwar Wada", "Raigad Fort"],
+      "food": ["Vada Pav", "Misal Pav", "Puran Poli", "Pav Bhaji"],
+      "festivals": ["Ganesh Chaturthi", "Gudi Padwa", "Ellora Festival"],
+      "identity": "Land of Warriors and Dreams, leading in commerce and Marathi culture.",
+      "geography": "Coastal & Hilly & Plains"
+    },
+    "Manipur": {
+      "capital": "Imphal",
+      "cities": ["Imphal", "Thoubal", "Bishnupur", "Churachandpur"],
+      "monuments": ["Kangla Fort", "Imphal War Cemetery", "Loktak Lake (Keibul Lamjao Park)"],
+      "food": ["Eromba", "Singju", "Kangshoi", "Chamthong"],
+      "festivals": ["Sangai Festival", "Yaoshang", "Cheiraoba"],
+      "identity": "Jewel of India, famous for its classical dance and Loktak Lake.",
+      "geography": "Hilly"
+    },
+    "Meghalaya": {
+      "capital": "Shillong",
+      "cities": ["Shillong", "Tura", "Jowai", "Cherrapunji"],
+      "monuments": ["Living Root Bridges", "Don Bosco Museum", "Nohkalikai Falls context"],
+      "food": ["Jadoh", "Doh-Khlieh", "Nakti Bitchi"],
+      "festivals": ["Wangala Festival", "Nongkrem Dance", "Behdeinkhlam"],
+      "identity": "Abode of Clouds, known for being the wettest place on earth.",
+      "geography": "Hilly"
+    },
+    "Mizoram": {
+      "capital": "Aizawl",
+      "cities": ["Aizawl", "Lunglei", "Champhai", "Serchhip"],
+      "monuments": ["Solomon's Temple", "Mizoram State Museum", "Reiek Hill"],
+      "food": ["Bai", "Vawksa Rep", "Sawhchiar"],
+      "festivals": ["Chapchar Kut", "Mim Kut", "Pawl Kut"],
+      "identity": "Land of the Mizo people, known for its rolling hills and bamboo dance.",
+      "geography": "Hilly"
+    },
+    "Nagaland": {
+      "capital": "Kohima",
+      "cities": ["Kohima", "Dimapur", "Mokokchung", "Tuensang"],
+      "monuments": ["Kohima War Cemetery", "Kachari Ruins", "Naga Heritage Village"],
+      "food": ["Smoked Pork with Bamboo Shoot", "Axone", "Galho"],
+      "festivals": ["Hornbill Festival", "Sekrenyi", "Moatsu"],
+      "identity": "Land of Festivals, famous for its diverse tribal cultures and Hornbill festival.",
+      "geography": "Hilly"
+    },
+    "Odisha": {
+      "capital": "Bhubaneswar",
+      "cities": ["Bhubaneswar", "Cuttack", "Rourkela", "Puri", "Sambalpur"],
+      "monuments": ["Konark Sun Temple", "Jagannath Temple Puri", "Lingaraj Temple"],
+      "food": ["Dalma", "Pakhala Bhata", "Chhena Poda", "Rasagola"],
+      "festivals": ["Ratha Yatra", "Konark Festival", "Nuakhai"],
+      "identity": "Land of Lord Jagannath, famous for its temples and classical Odissi dance.",
+      "geography": "Coastal & Plains"
+    },
+    "Punjab": {
+      "capital": "Chandigarh",
+      "cities": ["Ludhiana", "Amritsar", "Jalandhar", "Patiala", "Pathankot"],
+      "monuments": ["Golden Temple", "Jallianwala Bagh", "Qila Mubarak"],
+      "food": ["Makki di Roti & Sarson da Saag", "Butter Chicken", "Amritsari Kulcha", "Lassi"],
+      "festivals": ["Baisakhi", "Lohri", "Hola Mohalla"],
+      "identity": "Land of Five Rivers, known for its valor, agriculture, and vibrant energy.",
+      "geography": "Plains"
+    },
+    "Rajasthan": {
+      "capital": "Jaipur",
+      "cities": ["Jaipur", "Jodhpur", "Udaipur", "Ajmer", "Bikaner", "Jaisalmer"],
+      "monuments": ["Amer Fort", "Hawa Mahal", "City Palace Udaipur", "Mehrangarh Fort"],
+      "food": ["Dal Baati Churma", "Gatte ki Sabzi", "Laal Maas", "Ker Sangri"],
+      "festivals": ["Pushkar Camel Fair", "Desert Festival", "Gangaur", "Teej"],
+      "identity": "Land of Kings, famous for its deserts, forts, and royal heritage.",
+      "geography": "Desert & Hilly & Plains"
+    },
+    "Sikkim": {
+      "capital": "Gangtok",
+      "cities": ["Gangtok", "Namchi", "Geyzing", "Mangan"],
+      "monuments": ["Rumtek Monastery", "Pemayangtse Monastery", "Nathula Pass context"],
+      "food": ["Phagshapa", "Thukpa", "Gundruk", "Sikkimese Tea"],
+      "festivals": ["Losoong", "Saga Dawa", "Pang Lhabsol"],
+      "identity": "The Organic State, known for its brotherhood and Himalayan views.",
+      "geography": "Hilly"
+    },
+    "Tamil Nadu": {
+      "capital": "Chennai",
+      "cities": ["Chennai", "Coimbatore", "Madurai", "Tiruchirappalli", "Salem"],
+      "monuments": ["Meenakshi Amman Temple", "Brihadeeswarar Temple", "Mahabalipuram Shore Temple"],
+      "food": ["Dosa", "Idli", "Pongal", "Chettinad Chicken", "Filter Coffee"],
+      "festivals": ["Pongal", "Puthandu", "Karthigai Deepam"],
+      "identity": "Gateway of South India, famous for its Dravidian culture and temples.",
+      "geography": "Coastal & Hilly & Plains"
+    },
+    "Telangana": {
+      "capital": "Hyderabad",
+      "cities": ["Hyderabad", "Warangal", "Nizamabad", "Khammam", "Karimnagar"],
+      "monuments": ["Charminar", "Golconda Fort", "Ramappa Temple", "Thousand Pillar Temple"],
+      "food": ["Hyderabadi Biryani", "Haleem", "Sakinalu", "Golichina Mamsam"],
+      "festivals": ["Bonalu", "Bathukamma", "Sammakka Saralamma Jatara"],
+      "identity": "Land of Nizams and Temples, known for its unique blend of cultures.",
+      "geography": "Plains"
+    },
+    "Tripura": {
+      "capital": "Agartala",
+      "cities": ["Agartala", "Udaipur", "Dharmanagar", "Kailasahar"],
+      "monuments": ["Ujjayanta Palace", "Neermahal", "Unakoti"],
+      "food": ["Mui Borok", "Chuwan (Rice Water)", "Bamboo Shoot"],
+      "festivals": ["Kharchi Puja", "Garia Puja", "Neermahal Festival"],
+      "identity": "Land of Fourteen Gods, known for its bamboo handicrafts and palaces.",
+      "geography": "Hilly"
+    },
+    "Uttar Pradesh": {
+      "capital": "Lucknow",
+      "cities": ["Lucknow", "Kanpur", "Varanasi", "Agra", "Prayagraj", "Mathura"],
+      "monuments": ["Taj Mahal", "Kashi Vishwanath Temple", "Bara Imambara", "Prem Mandir"],
+      "food": ["Tunday Kababi", "Petha", "Bedai-Jalebi", "Banarasi Paan"],
+      "festivals": ["Deepawali", "Holi", "Kumbh Mela", "Dev Deepawali"],
+      "identity": "Heartland of India, rich in spiritual, cultural, and political history.",
+      "geography": "Plains"
+    },
+    "Uttarakhand": {
+      "capital": "Dehradun",
+      "cities": ["Dehradun", "Haridwar", "Roorkee", "Haldwani", "Rishikesh", "Nainital"],
+      "monuments": ["Badrinath Temple", "Kedarnath Temple", "Jageshwar Temples"],
+      "food": ["Kafuli", "Bhang ki Chutney", "Phanu", "Kandalee Ka Saag"],
+      "festivals": ["Kumbh Mela", "Nanda Devi Raj Jat", "Phool Dei"],
+      "identity": "Devbhumi (Land of Gods), famous for the Himalayas and holy rivers.",
+      "geography": "Hilly"
+    },
+    "West Bengal": {
+      "capital": "Kolkata",
+      "cities": ["Kolkata", "Howrah", "Durgapur", "Siliguri", "Asansol", "Darjeeling"],
+      "monuments": ["Victoria Memorial", "Dakshineswar Temple", "Howrah Bridge"],
+      "food": ["Ilish Macher Jhol", "Rosogolla", "Mishti Doi", "Kolkata Kati Roll"],
+      "festivals": ["Durga Puja", "Poila Baisakh", "Saraswati Puja"],
+      "identity": "Cultural Capital of India, known for its art, literature, and food.",
+      "geography": "Coastal & Plains & Hilly"
+    },
+    "Delhi": {
+        "capital": "New Delhi",
+        "cities": ["New Delhi", "Old Delhi", "Dwarka", "Rohini"],
+        "monuments": ["Red Fort", "Qutub Minar", "India Gate", "Humayun's Tomb"],
+        "food": ["Chole Bhature", "Paranthe Walli Gali", "Butter Chicken", "Nihari"],
+        "festivals": ["Republic Day Parade", "Phool Walon Ki Sair", "International Mango Festival"],
+        "identity": "Capital of India, a mix of ancient history and modern metropolitan life.",
+        "geography": "Plains"
+    },
+    "Jammu & Kashmir": {
+        "capital": "Srinagar (Summer) / Jammu (Winter)",
+        "cities": ["Srinagar", "Jammu", "Anantnag", "Baramulla"],
+        "monuments": ["Shankaracharya Temple", "Martand Sun Temple", "Hari Parbat Fort"],
+        "food": ["Wazwan", "Kahwa", "Rogan Josh", "Dum Aloo"],
+        "festivals": ["Tulip Festival", "Shikara Festival", "Baisakhi"],
+        "identity": "Paradise on Earth, famous for its valley, mountains, and saffron.",
+        "geography": "Hilly"
+    },
+    "Ladakh": {
+        "capital": "Leh",
+        "cities": ["Leh", "Kargil"],
+        "monuments": ["Leh Palace", "Shanti Stupa", "Hemis Monastery"],
+        "food": ["Thukpa", "Skyu", "Butter Tea"],
+        "festivals": ["Hemis Festival", "Ladakh Festival", "Losar"],
+        "identity": "The Land of High Passes, known for its unique culture and stark landscapes.",
+        "geography": "Hilly"
+    }
+  },
+  "city_to_state": {
+    "Visakhapatnam": "Andhra Pradesh", "Vijayawada": "Andhra Pradesh", "Guntur": "Andhra Pradesh", "Nellore": "Andhra Pradesh", "Kurnool": "Andhra Pradesh", "Tirupati": "Andhra Pradesh",
+    "Itanagar": "Arunachal Pradesh", "Tawang": "Arunachal Pradesh", "Ziro": "Arunachal Pradesh", "Pasighat": "Arunachal Pradesh", "Bomdila": "Arunachal Pradesh",
+    "Guwahati": "Assam", "Dibrugarh": "Assam", "Silchar": "Assam", "Jorhat": "Assam", "Tezpur": "Assam",
+    "Patna": "Bihar", "Gaya": "Bihar", "Bhagalpur": "Bihar", "Muzaffarpur": "Bihar", "Nalanda": "Bihar",
+    "Raipur": "Chhattisgarh", "Bhilai": "Chhattisgarh", "Bilaspur": "Chhattisgarh", "Korba": "Chhattisgarh", "Jagdalpur": "Chhattisgarh",
+    "Panaji": "Goa", "Margao": "Goa", "Vasco da Gama": "Goa", "Mapusa": "Goa", "Ponda": "Goa",
+    "Ahmedabad": "Gujarat", "Surat": "Gujarat", "Vadodara": "Gujarat", "Rajkot": "Gujarat", "Bhavnagar": "Gujarat",
+    "Gurugram": "Haryana", "Faridabad": "Haryana", "Panipat": "Haryana", "Ambala": "Haryana", "Hisar": "Haryana",
+    "Shimla": "Himachal Pradesh", "Manali": "Himachal Pradesh", "Dharamshala": "Himachal Pradesh", "Solan": "Himachal Pradesh", "Mandi": "Himachal Pradesh",
+    "Ranchi": "Jharkhand", "Jamshedpur": "Jharkhand", "Dhanbad": "Jharkhand", "Bokaro": "Jharkhand", "Deoghar": "Jharkhand",
+    "Bengaluru": "Karnataka", "Mysuru": "Karnataka", "Hubballi": "Karnataka", "Mangaluru": "Karnataka", "Belagavi": "Karnataka", "Hampi": "Karnataka",
+    "Thiruvananthapuram": "Kerala", "Kochi": "Kerala", "Kozhikode": "Kerala", "Thrissur": "Kerala", "Kollam": "Kerala",
+    "Indore": "Madhya Pradesh", "Bhopal": "Madhya Pradesh", "Jabalpur": "Madhya Pradesh", "Gwalior": "Madhya Pradesh", "Ujjain": "Madhya Pradesh",
+    "Mumbai": "Maharashtra", "Pune": "Maharashtra", "Nagpur": "Maharashtra", "Thane": "Maharashtra", "Nashik": "Maharashtra", "Aurangabad": "Maharashtra",
+    "Imphal": "Manipur", "Thoubal": "Manipur", "Bishnupur": "Manipur", "Churachandpur": "Manipur",
+    "Shillong": "Meghalaya", "Tura": "Meghalaya", "Jowai": "Meghalaya", "Cherrapunji": "Meghalaya",
+    "Aizawl": "Mizoram", "Lunglei": "Mizoram", "Champhai": "Mizoram", "Serchhip": "Mizoram",
+    "Kohima": "Nagaland", "Dimapur": "Nagaland", "Mokokchung": "Nagaland", "Tuensang": "Nagaland",
+    "Bhubaneswar": "Odisha", "Cuttack": "Odisha", "Rourkela": "Odisha", "Puri": "Odisha", "Sambalpur": "Odisha",
+    "Ludhiana": "Punjab", "Amritsar": "Punjab", "Jalandhar": "Punjab", "Patiala": "Punjab", "Pathankot": "Punjab",
+    "Jaipur": "Rajasthan", "Jodhpur": "Rajasthan", "Udaipur": "Rajasthan", "Ajmer": "Rajasthan", "Bikaner": "Rajasthan", "Jaisalmer": "Rajasthan",
+    "Gangtok": "Sikkim", "Namchi": "Sikkim", "Geyzing": "Sikkim", "Mangan": "Sikkim",
+    "Chennai": "Tamil Nadu", "Coimbatore": "Tamil Nadu", "Madurai": "Tamil Nadu", "Tiruchirappalli": "Tamil Nadu", "Salem": "Tamil Nadu",
+    "Hyderabad": "Telangana", "Warangal": "Telangana", "Nizamabad": "Telangana", "Khammam": "Telangana", "Karimnagar": "Telangana",
+    "Agartala": "Tripura", "Udaipur_Tripura": "Tripura", "Dharmanagar": "Tripura", "Kailasahar": "Tripura",
+    "Lucknow": "Uttar Pradesh", "Kanpur": "Uttar Pradesh", "Varanasi": "Uttar Pradesh", "Agra": "Uttar Pradesh", "Prayagraj": "Uttar Pradesh", "Mathura": "Uttar Pradesh",
+    "Dehradun": "Uttarakhand", "Haridwar": "Uttarakhand", "Roorkee": "Uttarakhand", "Haldwani": "Uttarakhand", "Rishikesh": "Uttarakhand", "Nainital": "Uttarakhand",
+    "Kolkata": "West Bengal", "Howrah": "West Bengal", "Durgapur": "West Bengal", "Siliguri": "West Bengal", "Asansol": "West Bengal", "Darjeeling": "West Bengal",
+    "New Delhi": "Delhi", "Old Delhi": "Delhi", "Dwarka": "Delhi", "Rohini": "Delhi",
+    "Srinagar": "Jammu & Kashmir", "Jammu": "Jammu & Kashmir", "Anantnag": "Jammu & Kashmir", "Baramulla": "Jammu & Kashmir",
+    "Leh": "Ladakh", "Kargil": "Ladakh"
+  }
+}
