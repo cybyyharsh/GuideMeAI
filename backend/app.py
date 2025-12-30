@@ -8,14 +8,8 @@ CORS(app)
 def home():
     return jsonify({"message": "GuideMeAI backend running"}), 200
 
-@app.route("/health", methods=["GET"])
-def health():
-    return jsonify({"status": "ok"}), 200
-
 @app.route("/chat", methods=["POST"])
 def chat():
     data = request.get_json(silent=True) or {}
     message = data.get("message", "")
-    return jsonify({
-        "reply": f"Demo response received: {message}"
-    }), 200
+    return jsonify({"reply": f"Demo response received: {message}"}), 200
