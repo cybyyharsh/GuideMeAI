@@ -2,33 +2,36 @@
  * Global API Service
  */
 window.API = {
-    BASE_URL: "/api",
+    BASE_URL: (() => {
+        if (location.hostname.includes("github.io")) return null;
+        if (location.hostname === "localhost" || location.hostname === "127.0.0.1") return "http://127.0.0.1:5000";
+        return "https://YOUR-BACKEND.onrender.com"; // User should replace this
+    })(),
 
     async request(endpoint, method = "POST", body = null) {
-        const options = {
-            method,
-            headers: { "Content-Type": "application/json" }
-        };
-
-        if (body) options.body = JSON.stringify(body);
+        if (!this.BASE_URL) {
+            console.warn("🌐 API disabled (Frontend-only mode)");
+            return null;
+        }
 
         try {
-            const url = endpoint.startsWith('/') ? `${this.BASE_URL}${endpoint}` : `${this.BASE_URL}/${endpoint}`;
+            const options = {
+                method,
+                headers: { "Content-Type": "application/json" }
+            };
+            if (body) options.body = JSON.stringify(body);
+
+            const url = `${this.BASE_URL}${endpoint.startsWith('/') ? '' : '/'}${endpoint}`;
             const res = await fetch(url, options);
 
-            if (!res.ok) {
-                const errorData = await res.json().catch(() => ({ error: "Network Error" }));
-                const err = new Error(errorData.message || errorData.error || `HTTP ${res.status}`);
-                err.status = res.status;
-                throw err;
-            }
-
+            if (!res.ok) return null;
             return await res.json();
         } catch (err) {
-            console.error("🌐 API Error:", err);
-            throw err;
+            console.error("🌐 API Request Failed:", err);
+            return null;
         }
     },
+
 
     sendChatMessage(message, context = {}) {
         return this.request("/chat/", "POST", { message, ...context });

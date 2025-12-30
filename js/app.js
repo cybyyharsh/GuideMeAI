@@ -19,40 +19,53 @@ const App = {
     init: async function () {
         try {
             console.group("🚀 GuideMeAI Bootstrap");
-            this.setupErrorHandling();
 
-            // Wait for DOM to ensure selectors work
-            if (document.readyState === 'loading') {
-                await new Promise(resolve => document.addEventListener('DOMContentLoaded', resolve));
-            }
-
-            // Initialize System Modules
+            // Basic UI setup
             this.initRouter();
             this.initIcons();
 
-            // Core Modules Isolation Check
-            await this.bootstrapModules();
+            // Safe module initialization
+            this.safe(() => window.authManager?.init());
+            this.safe(() => window.profileManager?.init());
+            this.safe(() => window.sidebarManager?.init());
+            this.safe(() => window.mapManager?.init());
+
+            // Initialize Chat
+            this.safe(async () => {
+                if (typeof ChatApp !== 'undefined') {
+                    window.chatApp = new ChatApp();
+                    await window.chatApp.init();
+                }
+            });
 
             this.state.isLoaded = true;
             console.log("✅ Application Ready");
             console.groupEnd();
         } catch (error) {
-            this.handleGlobalError(error);
+            console.error("App init failed:", error);
+            this.showFallbackUI();
         }
     },
 
-    // 3. Global Error Boundary Logic
-    setupErrorHandling: function () {
-        window.onerror = (msg, url, lineNo, columnNo, error) => {
-            this.handleGlobalError(error || msg);
-            return false;
-        };
-
-        window.onunhandledrejection = (event) => {
-            this.handleGlobalError(event.reason);
-        };
+    safe: function (fn) {
+        try {
+            if (typeof fn === "function") fn();
+        } catch (e) {
+            console.warn(`Feature initialization failed`, e);
+        }
     },
 
+    showFallbackUI: function () {
+        document.body.innerHTML = `
+            <div style="padding:40px;font-family:sans-serif;text-align:center;background:#f8fafc;height:100vh;display:flex;flex-direction:column;justify-content:center;">
+                <h2 style="color:#1e293b">GuideMeAI</h2>
+                <p style="color:#64748b">Something went wrong while starting the app. Please refresh the page.</p>
+                <button onclick="location.reload()" style="padding:10px 20px;background:#2563eb;color:white;border:none;border-radius:8px;cursor:pointer;margin:0 auto;">Reload</button>
+            </div>
+        `;
+    },
+
+    // 3. Global Error Boundary Logic (Retaining original map panel logic)
     handleGlobalError: function (error) {
         console.error("CRITICAL FAILURE:", error);
         this.state.lastError = error;
@@ -66,39 +79,8 @@ const App = {
         }
     },
 
-    // 4. Feature Modular Initialization
-    bootstrapModules: async function () {
-        // Core Modules order: Auth -> Profile -> Sidebar -> Map -> Chat
-        const modules = [
-            { name: 'Auth', ref: window.authManager },
-            { name: 'Profile', ref: window.profileManager },
-            { name: 'Sidebar', ref: window.sidebarManager },
-            { name: 'Map', ref: window.mapManager }
-        ];
 
 
-        for (const mod of modules) {
-            try {
-                if (mod.ref && typeof mod.ref.init === 'function') {
-                    console.log(`Initializing module: ${mod.name}...`);
-                    await mod.ref.init();
-                }
-            } catch (err) {
-                console.warn(`Module ${mod.name} failed:`, err);
-            }
-        }
-
-        // Special handling for ChatApp (Class based)
-        try {
-            if (typeof ChatApp !== 'undefined') {
-                console.log("Initializing ChatApp...");
-                window.chatApp = new ChatApp();
-                await window.chatApp.init();
-            }
-        } catch (err) {
-            console.error("ChatApp failed:", err);
-        }
-    },
 
 
     initIcons: function () {
@@ -164,4 +146,7 @@ const App = {
 };
 
 // Start the App
-App.init();
+document.addEventListener("DOMContentLoaded", () => {
+    App.init();
+});
+
