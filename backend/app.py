@@ -1,12 +1,15 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_cors import CORS
-from backend.routes.chat import bp as chat_bp
 
 app = Flask(__name__)
 CORS(app)
 
-app.register_blueprint(chat_bp)
-
-@app.route("/health")
+# ---------- HEALTH CHECK ----------
+@app.route("/health", methods=["GET"])
 def health():
-    return {"status": "ok"}
+    return jsonify({"status": "ok"}), 200
+
+# ---------- ROOT (OPTIONAL BUT USEFUL) ----------
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({"message": "GuideMeAI backend running"}), 200
