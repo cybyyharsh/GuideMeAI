@@ -128,8 +128,11 @@ def check_project_structure():
         'backend/app.py',
         'backend/routes',
         'backend/services',
-        'frontend',
-        'frontend/index.html'
+        'index.html',
+        'js',
+        'css',
+        'images'
+
 
     ]
     
@@ -182,7 +185,7 @@ def start_server():
         backend_app = create_app()
         
         # Setup the main app that serves both
-        app = Flask(__name__, static_folder='frontend')
+        app = Flask(__name__, static_folder='.', static_url_path='')
         CORS(app)  # Enable CORS for development
         
         # Register all backend blueprints to the main app
@@ -192,13 +195,14 @@ def start_server():
         # Serve Frontend Static Files
         @app.route('/')
         def serve_index():
-            return send_from_directory('frontend', 'index.html')
+            return send_from_directory('.', 'index.html')
         
         @app.route('/<path:path>')
         def serve_static(path):
-            if os.path.exists(os.path.join('frontend', path)):
-                return send_from_directory('frontend', path)
-            return send_from_directory('frontend', 'index.html')
+            if os.path.exists(os.path.join('.', path)):
+                return send_from_directory('.', path)
+            return send_from_directory('.', 'index.html')
+
         
         # Health Check
         @app.route('/health')

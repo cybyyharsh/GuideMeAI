@@ -106,7 +106,8 @@ class ChatApp {
             card.innerHTML = `
                 ${badge}
                 <img src="${city.image}" alt="${city.monument}" loading="lazy" 
-                     onerror="this.src='https://source.unsplash.com/featured/?${encodeURIComponent(city.monument)},india'">
+                     onerror="this.src='images/fallback.jpg'">
+
                 <div class="card-overlay"></div>
                 <div class="city-pill">${city.city}</div>
             `;
