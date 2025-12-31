@@ -106,8 +106,7 @@ class ChatApp {
             card.innerHTML = `
                 ${badge}
                 <img src="${city.image}" alt="${city.monument}" loading="lazy" 
-                     onerror="this.src='images/fallback.jpg'">
-
+                     onerror="this.src='https://source.unsplash.com/featured/?${encodeURIComponent(city.monument)},india'">
                 <div class="card-overlay"></div>
                 <div class="city-pill">${city.city}</div>
             `;
@@ -152,16 +151,6 @@ class ChatApp {
         const message = this.messageInput.value.trim();
         if (!message) return;
 
-        // Basic Greeting Detection
-        const lowerMsg = message.toLowerCase();
-        if (["hi", "hello", "hey", "namaste", "hola"].includes(lowerMsg)) {
-            this.addMessage(message, 'user');
-            this.messageInput.value = '';
-            this.addMessage("Hello! I'm your GuideMeAI companion. What would you like to explore today?", 'bot');
-            this.addSuggestionChips(['Explore a city', 'Find places', 'Ask history', 'Get directions']);
-            return;
-        }
-
         this.addMessage(message, 'user');
         this.messageInput.value = '';
         this.showTypingIndicator();
@@ -181,15 +170,10 @@ class ChatApp {
                 history: this.conversationHistory.slice(-6)
             });
 
+
             this.hideTypingIndicator();
 
-            if (!response) {
-                this.addMessage("I'm running in offline mode right now (API disconnected). You can still browse the Heritage Explorer!", 'bot');
-                return;
-            }
-
             if (response.location_context) this.locationContext = response.location_context;
-
 
             this.addMessage(response.response, 'bot', response.agent_type);
             this.conversationHistory.push({ role: 'assistant', content: response.response, timestamp: new Date() });

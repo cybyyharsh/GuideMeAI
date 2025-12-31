@@ -5,7 +5,7 @@ const HERITAGE_DATA = [
             {
                 city: "Tirupati",
                 monument: "Tirumala Temple",
-                image: "images/andhrapradesh/tirupati.jpg",
+                image: "/images/andhrapradesh/tirupati.jpg",
                 lat: 13.6833,
                 lng: 79.3474
 
@@ -15,7 +15,7 @@ const HERITAGE_DATA = [
             {
                 city: "Amaravati",
                 monument: "Amaravati Stupa",
-                image: "images/andhrapradesh/amaravati.jpg",
+                image: "/images/andhrapradesh/amaravati.jpg",
 
                 lat: 16.5745,
                 lng: 80.3575
@@ -28,7 +28,7 @@ const HERITAGE_DATA = [
             {
                 city: "Tawang",
                 monument: "Tawang Monastery",
-                image: "images/arunachal/tawang.jpg",
+                image: "/images/arunachal/tawang.jpg",
                 lat: 27.5861,
                 lng: 91.8656
             }
@@ -40,14 +40,14 @@ const HERITAGE_DATA = [
             {
                 city: "Guwahati",
                 monument: "Kamakhya Temple",
-                image: "images/assam/guwahati.jpg",
+                image: "/images/assam/guwahati.jpg",
                 lat: 26.1158,
                 lng: 91.7086
             },
             {
                 city: "Sivasagar",
                 monument: "Rang Ghar",
-                image: "images/assam/sivasagar.jpg",
+                image: "/images/assam/sivasagar.jpg",
                 lat: 26.9826,
                 lng: 94.6311
             }
@@ -59,14 +59,14 @@ const HERITAGE_DATA = [
             {
                 city: "Bodh Gaya",
                 monument: "Mahabodhi Temple",
-                image: "images/bihar/bodhgaya.jpg",
+                image: "/images/bihar/bodhgaya.jpg",
                 lat: 24.6961,
                 lng: 84.9913
             },
             {
                 city: "Nalanda",
                 monument: "Nalanda University Ruins",
-                image: "images/bihar/nalanda.jpg",
+                image: "/images/bihar/nalanda.jpg",
                 lat: 25.1328,
                 lng: 85.4522
             }
@@ -78,7 +78,7 @@ const HERITAGE_DATA = [
             {
                 city: "Sirpur",
                 monument: "Laxman Temple",
-                image: "images/chhattisgarh/sirpur.jpg",
+                image: "/images/chhattisgarh/sirpur.jpg",
                 lat: 21.3435,
                 lng: 82.1764
             }
@@ -90,7 +90,7 @@ const HERITAGE_DATA = [
             {
                 city: "Old Goa",
                 monument: "Basilica of Bom Jesus",
-                image: "images/goa/oldgoa.jpg",
+                image: "/images/goa/oldgoa.jpg",
                 lat: 15.5009,
                 lng: 73.9116
             }
@@ -102,14 +102,14 @@ const HERITAGE_DATA = [
             {
                 city: "Ahmedabad",
                 monument: "Sabarmati Ashram",
-                image: "images/gujarat/ahmedabad.jpg",
+                image: "/images/gujarat/ahmedabad.jpg",
                 lat: 23.0225,
                 lng: 72.5714
             },
             {
                 city: "Modhera",
                 monument: "Sun Temple",
-                image: "images/gujarat/modhera.jpg",
+                image: "/images/gujarat/modhera.jpg",
                 lat: 23.5835,
                 lng: 72.1333
             }
@@ -121,7 +121,7 @@ const HERITAGE_DATA = [
             {
                 city: "Kurukshetra",
                 monument: "Brahma Sarovar",
-                image: "images/haryana/kurukshetra.jpg",
+                image: "/images/haryana/kurukshetra.jpg",
                 lat: 29.9691,
                 lng: 76.8352
             }
@@ -133,14 +133,14 @@ const HERITAGE_DATA = [
             {
                 city: "Dharamshala",
                 monument: "Tsuglagkhang Complex",
-                image: "images/himachal/dharamshala.jpg",
+                image: "/images/himachal/dharamshala.jpg",
                 lat: 32.2190,
                 lng: 76.3234
             },
             {
                 city: "Chamba",
                 monument: "Lakshmi Narayan Temple",
-                image: "images/himachalpradesh/chamba.jpg",
+                image: "/images/himachalpradesh/chamba.jpg",
                 lat: 32.5534,
                 lng: 76.1258
             }
@@ -152,7 +152,7 @@ const HERITAGE_DATA = [
             {
                 city: "Deoghar",
                 monument: "Baidyanath Dham",
-                image: "images/jharkhand/deoghar.jpg",
+                image: "/images/jharkhand/deoghar.jpg",
                 lat: 24.4820,
                 lng: 86.7001
             }
@@ -164,14 +164,14 @@ const HERITAGE_DATA = [
             {
                 city: "Hampi",
                 monument: "Group of Monuments",
-                image: "images/karnataka/hampi.jpg",
+                image: "/images/karnataka/hampi.jpg",
                 lat: 15.3350,
                 lng: 76.4600
             },
             {
                 city: "Mysuru",
                 monument: "Mysore Palace",
-                image: "images/karnataka/mysuru.jpg",
+                image: "/images/karnataka/mysuru.jpg",
                 lat: 12.3051,
                 lng: 76.6551
             }
@@ -183,7 +183,7 @@ const HERITAGE_DATA = [
             {
                 city: "Kochi",
                 monument: "Mattancherry Palace",
-                image: "images/kerala/kochi.jpg",
+                image: "/images/kerala/kochi.jpg",
                 lat: 9.9592,
                 lng: 76.2589
             }
@@ -195,14 +195,14 @@ const HERITAGE_DATA = [
             {
                 city: "Khajuraho",
                 monument: "Khajuraho Temples",
-                image: "images/madhyapradesh/khajuraho.jpg",
+                image: "/images/madhyapradesh/khajuraho.jpg",
                 lat: 24.8518,
                 lng: 79.9199
             },
             {
                 city: "Sanchi",
                 monument: "Sanchi Stupa",
-                image: "images/madhyapradesh/sanchi.jpg",
+                image: "/images/madhyapradesh/sanchi.jpg",
                 lat: 23.4754,
                 lng: 77.7397
             }
@@ -214,14 +214,14 @@ const HERITAGE_DATA = [
             {
                 city: "Aurangabad",
                 monument: "Ajanta & Ellora Caves",
-                image: "images/maharashtra/aurangabad.jpg",
+                image: "/images/maharashtra/aurangabad.jpg",
                 lat: 19.8762,
                 lng: 75.3433
             },
             {
                 city: "Mumbai",
                 monument: "Gateway of India",
-                image: "images/maharashtra/mumbai.jpg",
+                image: "/images/maharashtra/mumbai.jpg",
                 lat: 18.9220,
                 lng: 72.8347
             }
@@ -233,7 +233,7 @@ const HERITAGE_DATA = [
             {
                 city: "Imphal",
                 monument: "Kangla Fort",
-                image: "images/manipur/imphal.jpg",
+                image: "/images/manipur/imphal.jpg",
                 lat: 24.8170,
                 lng: 93.9493
             }
@@ -245,7 +245,7 @@ const HERITAGE_DATA = [
             {
                 city: "Shillong",
                 monument: "Elephant Falls",
-                image: "images/meghalaya/shillong.jpg",
+                image: "/images/meghalaya/shillong.jpg",
                 lat: 25.5647,
                 lng: 91.8837
             }
@@ -257,7 +257,7 @@ const HERITAGE_DATA = [
             {
                 city: "Aizawl",
                 monument: "Solomon’s Temple",
-                image: "images/mizoram/aizawl.jpg",
+                image: "/images/mizoram/aizawl.jpg",
                 lat: 23.7307,
                 lng: 92.7173
             }
@@ -269,7 +269,7 @@ const HERITAGE_DATA = [
             {
                 city: "Kohima",
                 monument: "Kohima War Cemetery",
-                image: "images/nagaland/kohima.jpg",
+                image: "/images/nagaland/kohima.jpg",
                 lat: 25.6616,
                 lng: 94.1039
             }
@@ -281,14 +281,14 @@ const HERITAGE_DATA = [
             {
                 city: "Bhubaneswar",
                 monument: "Lingaraja Temple",
-                image: "images/odisha/bhubaneswar.jpg",
+                image: "/images/odisha/bhubaneswar.jpg",
                 lat: 20.2359,
                 lng: 85.8338
             },
             {
                 city: "Konark",
                 monument: "Sun Temple",
-                image: "images/odisha/konark.jpg",
+                image: "/images/odisha/konark.jpg",
                 lat: 19.8876,
                 lng: 86.0945
             }
@@ -300,7 +300,7 @@ const HERITAGE_DATA = [
             {
                 city: "Amritsar",
                 monument: "Golden Temple",
-                image: "images/punjab/amritsar.jpg",
+                image: "/images/punjab/amritsar.jpg",
                 lat: 31.6200,
                 lng: 74.8765
             }
@@ -312,14 +312,14 @@ const HERITAGE_DATA = [
             {
                 city: "Jaipur",
                 monument: "Hawa Mahal",
-                image: "images/rajasthan/jaipur.jpg",
+                image: "/images/rajasthan/jaipur.jpg",
                 lat: 26.9239,
                 lng: 75.8267
             },
             {
                 city: "Udaipur",
                 monument: "City Palace",
-                image: "images/rajasthan/udaipur.jpg",
+                image: "/images/rajasthan/udaipur.jpg",
                 lat: 24.5764,
                 lng: 73.6835
             }
@@ -331,7 +331,7 @@ const HERITAGE_DATA = [
             {
                 city: "Rumtek",
                 monument: "Rumtek Monastery",
-                image: "images/sikkim/rumtek.jpg",
+                image: "/images/sikkim/rumtek.jpg",
                 lat: 27.2833,
                 lng: 88.5833
             }
@@ -343,14 +343,14 @@ const HERITAGE_DATA = [
             {
                 city: "Thanjavur",
                 monument: "Brihadeeswarar Temple",
-                image: "images/tn/thanjavur.jpg",
+                image: "/images/tn/thanjavur.jpg",
                 lat: 10.7828,
                 lng: 79.1318
             },
             {
                 city: "Mahabalipuram",
                 monument: "Shore Temple",
-                image: "images/tn/mahabalipuram.jpg",
+                image: "/images/tn/mahabalipuram.jpg",
                 lat: 12.6167,
                 lng: 80.1917
             }
@@ -362,7 +362,7 @@ const HERITAGE_DATA = [
             {
                 city: "Hyderabad",
                 monument: "Charminar",
-                image: "images/telangana/charminar.jpg",
+                image: "/images/telangana/charminar.jpg",
                 lat: 17.3616,
                 lng: 78.4747
             }
@@ -374,7 +374,7 @@ const HERITAGE_DATA = [
             {
                 city: "Udaipur",
                 monument: "Tripura Sundari Temple",
-                image: "images/tripura/udaipur.jpg",
+                image: "/images/tripura/udaipur.jpg",
                 lat: 23.5350,
                 lng: 91.4880
             }
@@ -386,14 +386,14 @@ const HERITAGE_DATA = [
             {
                 city: "Agra",
                 monument: "Taj Mahal",
-                image: "images/up/tajmahal.jpg",
+                image: "/images/up/tajmahal.jpg",
                 lat: 27.1751,
                 lng: 78.0421
             },
             {
                 city: "Varanasi",
                 monument: "Kashi Vishwanath Temple",
-                image: "images/up/varanasi.jpg",
+                image: "/images/up/varanasi.jpg",
                 lat: 25.3109,
                 lng: 83.0107
             }
@@ -405,14 +405,14 @@ const HERITAGE_DATA = [
             {
                 city: "Rishikesh",
                 monument: "Triveni Ghat",
-                image: "images/uk/rishikesh.jpg",
+                image: "/images/uk/rishikesh.jpg",
                 lat: 30.1033,
                 lng: 78.2946
             },
             {
                 city: "Kedarnath",
                 monument: "Kedarnath Temple",
-                image: "images/uk/kedarnath.jpg",
+                image: "/images/uk/kedarnath.jpg",
                 lat: 30.7352,
                 lng: 79.0669
             }
@@ -424,7 +424,7 @@ const HERITAGE_DATA = [
             {
                 city: "Kolkata",
                 monument: "Victoria Memorial",
-                image: "images/wb/kolkata.jpg",
+                image: "/images/wb/kolkata.jpg",
                 lat: 22.5448,
                 lng: 88.3425
             }
